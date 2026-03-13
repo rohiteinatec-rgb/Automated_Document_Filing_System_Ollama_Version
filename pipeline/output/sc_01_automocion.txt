@@ -1,0 +1,71 @@
+<!-- image -->
+
+EMITIDAPOR
+
+## Automocion Premium S.L.
+
+Av.delaPaz20028906Getafe,Espana CIF:B22334455
+
+Tel:+34916007788
+
+ventas@autoprem.es
+
+FACTURARA
+
+## Transportes Rueda S.A.
+
+## FACTURA
+
+DATOSFACTURA
+
+N:AP/2025/0412
+
+Fecha:01/03/2025
+
+Vence:31/03/2025
+
+Pago: Contado
+
+CalleTaller528080Madrid,Espana
+
+CIF:A77889900
+
+Ref:CLI-3310
+
+| DESCRIPCION                                        |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE   |
+|----------------------------------------------------|---------|----------------|--------|-----------|
+| VehiculoComercialFurgonetaTransito2.0TDI           |       2 | 28.500,00      | 3%     | 55.290,00 |
+| Kit equipamiento profesional (estantes + anclajes) |       2 | 850,00         |        | 1.700,00  |
+| Matriculacion y gestion documentacion (x2)         |       2 | 380,00         |        | 760,00    |
+| Seguro todo riesgo primer ano (x2)                 |       2 | 1.200,00       | 10%    | 2.160,00  |
+| Revision pre-entrega y puesta a punto              |       2 | 120,00         |        | 240,00    |
+
+Base Imponible:
+
+60.150,00
+
+IVA (21%):
+
+12.631,50
+
+TOTALFACTURA:
+
+72.781,50
+
+NOTAS
+
+Pago al contado. Vehiculos disponibles para entrega inmediata.
+
+DATOSDEPAGO
+
+Banco:BankinterS.A.
+
+IBAN:ES1701281234560100012345
+
+SWIFT:BKBKESMMXXX
+
+Concepto:AP/2025/0412
+
+Graciasporsu compraenAutomocionPremiumS.L.
+
+CIF:B22334455·Reg. Mercantil Madrid ·Tomo 60.100,Folio 9

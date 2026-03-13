@@ -1,0 +1,79 @@
+## ESTRAGLO
+
+EstrategiaGlobal ConsultoriaS.L
+
+EMITIDAPOR
+
+## Estrategia Global Consultoria S.L.
+
+TorreAgbar,Av.Diagonal 21108018 Barcelona,Espana
+
+CIF:B66778899
+
+Tel:+34934445566
+
+billing@estraglo.com
+
+FACTURARA
+
+## Grupo Empresarial Hernandez S.A.
+
+Calle Serrano 41,8° 28001 Madrid, Espana
+
+CIF:A55667788
+
+Ref:PROY-2025/034
+
+| DESCRIPCION                                         |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE   |
+|-----------------------------------------------------|---------|----------------|--------|-----------|
+| Consultoriaestrategica—analisismercadoiberico       |      40 | 250,00         |        | 10.000,00 |
+| Plan de expansion internacional (informe ejecutivo) |       1 | 8.500,00       |        | 8.500,00  |
+| Tallerestrategia directiva(2 sesionesx 4h)          |       2 | 2.200,00       |        | 4.400,00  |
+| Seguimiento mensual KPls estrategicos (3 meses)     |       3 | 1.800,00       |        | 5.400,00  |
+| Viajesy dietas (justificantes adjuntos)             |       1 | 1.240,00       | 一      | 1.240,00  |
+
+IRPF (-15%):
+
+-4.416,50
+
+Base Imponible:
+
+29.540,00
+
+IVA (21%):
+
+6.203,40
+
+TOTAL FACTURA:
+
+31.326,90
+
+NOTAS
+
+Sujeto a retencion IRPF 15%.Gastos de viaje exentos de IVA.Pago a 60 dias.
+
+DATOSDEPAGO
+
+Banco:DeutscheBankEspana
+
+IBAN:ES2301901234561234567890
+
+SWIFT:DEUTESBBXXX
+
+Concepto:EG/2025/0089PROY-2025/034
+
+Graciaspor confiarenEstrategiaGlobalparasucrecimiento empresarial.
+
+CIF:B66778899·Reg.Mercantil Barcelona·Tomo 44.567,Folio122
+
+## FACTURA
+
+DATOSFACTURA
+
+N:EG/2025/0089
+
+Fecha:28/02/2025
+
+Vence:30/04/2025
+
+Pago:Transferencia60 dias

@@ -1,0 +1,73 @@
+<!-- image -->
+
+EMITIDAPOR
+
+## Energia Verde S.A.
+
+ParqueTecnologico,Pabellon748160 Derio, Espana
+
+CIF:A99001122
+
+Tel:+34944301234
+
+facturacion@enerverde.es
+
+FACTURARA
+
+## Fabrica Textil del Norte S.L.
+
+PoligonoTxorierri,Nave2348150 Sondika, Espana
+
+CIF:B55001122
+
+Ref:CONT-ENER-2025
+
+| DESCRIPCION                                    |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE   |
+|------------------------------------------------|---------|----------------|--------|-----------|
+| Suministro energiaeléctrica—85.000kWh(febrero) |      85 | 0,12           |        | 10.200,00 |
+| Potenciacontratada—150kW(28dias)               |       1 | 1.890,00       |        | 1.890,00  |
+| Energiareactiva—excesotrimestral               |       1 | 340,00         |        | 340,00    |
+| Cuotamantenimientocontadorinteligente          |       1 | 45,00          |        | 45,00     |
+| Impuesto especial electricidad (5,11%)         |       1 | 630,22         |        | 630,22    |
+
+Base Imponible:
+
+13.105,22
+
+IVA (21%):
+
+2.752,10
+
+TOTALFACTURA:
+
+15.857,32
+
+NOTAS
+
+Domiciliacion SEPAel dia 30 delmes.Ref.mandato: EV-FAB-TXTL-001.
+
+DATOSDEPAGO
+
+Banco:Kutxabank
+
+IBAN:ES5520951234560123456789
+
+SWIFT:BASKES2BXXX
+
+Concepto:EV/2025/0677CONT-ENER-2025
+
+Gracias por apostarpor la energia renovable con EnergiaVerde S.A.
+
+CIF: A99001122·Reg.Mercantil Vizcaya ·Tomo 5.678,Folio 234
+
+## FACTURA
+
+DATOSFACTURA
+
+N%:EV/2025/0677
+
+Fecha:28/02/2025
+
+Vence:30/03/2025
+
+Pago:Domiciliacion SEPA

@@ -1,16 +1,17 @@
 """
-detector.py
+detector_docling.py
 -----------
 GOAL: Read one invoice PDF → save raw text to /output
+
+Output :
 
 RUN:
     python pipeline/detector.py --pdf input/digital_invoice_test.pdf
     python pipeline/detector.py --pdf input/dummy.pdf
 """
-
-import fitz              # PyMuPDF
 import os
 import argparse
+from docling.document_converter import DocumentConverter
 from pathlib import Path
 
 
@@ -25,9 +26,10 @@ def detector(pdf_path):
     Scanned PDF → returns little or nothing (page is just an image)
     """
 
-    doc  = fitz.open(pdf_path)
-    text = doc[0].get_text()   # page 1 only — invoice is always 1 page
-    doc.close()
+    converter = DocumentConverter()
+    result    = converter.convert(pdf_path)
+    text      = result.document.export_to_markdown()
+
 
     return text
 

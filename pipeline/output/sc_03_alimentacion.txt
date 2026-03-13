@@ -1,0 +1,75 @@
+## SABORCAMPO
+
+Saboresdel CampoS.L
+
+EMITIDAPOR
+
+## Sabores del Campo S.L.
+
+Camino dela Huerta s/n30100Murcia, Espana
+
+CIF:B44556677
+
+Tel:+34968123456
+
+pedidos@saborescampo.es
+
+## FACTURA
+
+DATOSFACTURA
+
+N:SC/2025/1102
+
+Fecha:14/02/2025
+
+Vence:16/03/2025
+
+Pago:Transferencia30dias
+
+FACTURARA
+
+## Hipermercados La Cesta S.A.
+
+Av.Europa 5528820 Coslada,Espana
+
+CIF:A33445566
+
+Ref:PED-78934
+
+| DESCRIPCION                               |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE   |
+|-------------------------------------------|---------|----------------|--------|-----------|
+| Naranjas Valencia extra (caja 15kg)       |     200 | 12,50          |        | 2.500,00  |
+| Limones Verna primera (caja 12kg)         |     150 | 9,80           |        | 1.470,00  |
+| Tomates rama ecologicos (caja 6kg)        |     300 | 8,40           | 5%     | 2.394,00  |
+| Lechugas Iceberg (caja 12 unidades)       |     180 | 6,20           |        | 1.116,00  |
+| Pimientos rojos californianos (caja 10kg) |     120 | 14,00          | 一      | 1.680,00  |
+
+Base Imponible:
+
+9.160,00
+
+IVA (4%):
+
+366,40
+
+TOTALFACTURA:
+
+9.526,40
+
+NOTAS
+
+IVA superreducido 4% — productos alimenticios basicos. Transporte incluido.
+
+DATOSDEPAGO
+
+Banco: Cajamar Caja Rural
+
+IBAN:ES4430581234561234567890
+
+SWIFT:CCRIES2AXXX
+
+Concepto:SC/2025/1102PED-78934
+
+Gracias por elegir Saboresdel Campo.Frescura garantizada en cada entrega.
+
+CIF:B44556677·Reg.Mercantil Murcia ·Tomo 2.345,Folio 67
