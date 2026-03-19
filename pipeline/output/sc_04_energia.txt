@@ -2,61 +2,43 @@
 
 EMITIDA POR
 
-## Energia Verde S.A.
+## Energía Verde SA.
 
-Parque Tecnoldgico, Pabellén 7 48160 Derio, Espafia
+Parque Tecnológico; Pabellón 7 48160 Derio; España
 
-CIF:
+CIF: A99001122
 
-A99001122
+Tel: +34 94 430 12 34
 
-Tel:
-
-+34 94 430 12 34
-
-facturacion@enerverde.es
-
-FACTURAR A
-
-## Fabrica Textil del Norte S.L.
-
-Sondika, Espana Poligono Txorierri, Nave 23 48150
-
-CIF:
-
-B55001122
-
-Ref:
-
-CONT-ENER-2025
+facturacion@enerverde es
 
 ## FACTURA
 
 DATOS FACTURA
 
-Ne:
+Fecha: 28/02/2025
 
-EV/2025/0677
+Vence: 30/03/2025
 
-Fecha:
+Pago: Domiciliación SEPA
 
-28/02/2025
+FACTURAR A
 
-Vence:
+## Fábrica Textil del Norte SL.
 
-30/03/2025
+Polígono Txorierri, Nave 23 48150 Sondika; España
 
-Pago:
+CIF: B55001122
 
-Domiciliacién SEPA
+Ref: CONT-ENER-2025
 
-| DESCRIPCION                                         |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE     |
-|-----------------------------------------------------|---------|----------------|--------|-------------|
-| Suministro energia eléctrica — 85.000 kWh (febrero) |      85 | 0,12€          | _      | 10.200,00 € |
-| Potencia contratada — 150 kW (28 dias)              |       1 | 1.890,00 €     | —      | 1.890,00 €  |
-| Energia reactiva — exceso trimestral                |       1 | 340,00 €       | _      | 340,00 €    |
-| Cuota mantenimiento contador inteligente            |       1 | 45,00 €        | _      | 45,00 €     |
-| Impuesto especial electricidad (5,11%)              |       1 | 630,22 €       | _      | 630,22 €    |
+| DESCRIPCIÓN                                       |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE     |
+|---------------------------------------------------|---------|----------------|--------|-------------|
+| Suministro energía eléctrica 85.000 kWh (febrero) |      85 | 0,12 €         |        | 10.200,00 € |
+| Potencia contratada 150 kW (28 días)              |         | 1.890,00 €     |        | 1.890,00 €  |
+| Energía reactiva exceso trimestral                |         | 340,00 €       |        | 340,00 €    |
+| Cuota mantenimiento contador inteligente          |         | 45,00 €        |        | 45,00 €     |
+| Impuesto especial electricidad (5,11%)            |         | 630,22 €       |        | 630,22 €    |
 
 Base Imponible:
 
@@ -64,32 +46,24 @@ Base Imponible:
 
 IVA (21%):
 
-2.752,10 €
-
 TOTAL FACTURA:
 
 15.857,32 €
 
 NOTAS
 
-Domiciliacién SEPA el dia 30 del mes. Ref. mandato: EV-FAB-TXTL-001.
+Domiciliación SEPA el día 30 del mes. Ref. mandato: EV-FAB-TXTL-001\_
 
 DATOS DE PAGO
 
-Banco:
+Banco: Kutxabank
 
-Kutxabank
+IBAN: ES55 2095 1234 5601 2345 6789
 
-IBAN:
+SWIFT: BASKESZBXXX
 
-ES55 2095 1234 5601 2345 6789
+Concepto: EVI2025/0677 CONT-ENER-2025
 
-SWIFT:
+Gracias por apostar por Ia energía renovable con Energía Verde S.A.
 
-BASKES2BXXX
-
-Concepto:
-
-EV/2025/0677 CONT-ENER-2025
-
-Gracias por apostar por la energia renovable con Energia Verde S.A.
+CIF: A99001122 Reg. Mercantil Vizcaya Tomo 5.678, Folio 234

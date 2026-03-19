@@ -1,42 +1,30 @@
 <!-- image -->
 
-## Mi Empresa S.L.
+## Mi Empresa S.L
 
-Calle Principal 123 28001 Madrid, Espana
+Calle Principal 123 28001 Madrid Espana
 
-CIF:
-
-B12345678
+CIF B12345678
 
 ## FACTURAR A:
 
 ## ACME Corporation
 
-Av. de la Industria 456 28023 Madnd, Espana
+Av de la Indusia 456 28023 Madrid, España CIF 487654321
 
-CIF:
+| Descripción                         |   Cant | Precio     | Importe    |
+|-------------------------------------|--------|------------|------------|
+| Servicios de Consultoría Enero 2024 |     40 | 75,00 €    | 3.000,00 € |
+| Desarrollo de Software Módulo CRM   |      1 | 2.500,00 € | 2.500,00 € |
+| Mantenimiento Anual Licencias       |      1 | 1.200,00 € | 1200,00 €  |
 
-AS 7654321
-
-| Descripcién                           | Cant.   | Precio     | Importe    |
-|---------------------------------------|---------|------------|------------|
-| Servicios de Consultoria - Enero 2024 | 40      | 75,00 €    | 3.000,00 € |
-| Desarrollo de Software - Modulo CRM   | L       | ?.500,00 € | 2.500,00 € |
-| Mantenimiento Anual - Licencias       | 1       | 1.200,00 € | 1.200,00 € |
-
-| Base Imponible   | 6.700,00 €   |
+| Base Imponible   | 6.7oo.00 €   |
 |------------------|--------------|
-| IVA (2196)       | 1.407 ,00 €  |
+| IVA (2186)       |              |
 | TOTAL            | 8.107,00 €   |
 
-## FACTURA
+## FACTURA FACTI2024/0042
 
-## FACT/2024/0042
+Fecha: 15/01/2024
 
-Fecha:
-
-15/01/2024
-
-Vencimiento:
-
-14/02/2024
+Vencimiento: 14/02/2024

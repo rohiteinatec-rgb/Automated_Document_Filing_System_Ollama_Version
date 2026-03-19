@@ -1,18 +1,16 @@
-## EsTRact®.
+## ESTRAGLO
+
+Estrategia Global Consultoría S
 
 EMITIDA POR
 
-## Estrategia Global Consultoria S.L.
+## Estrategia Global Consultoría S.L
 
-Torre Agbar, Av. Diagonal 211 08018 Barcelona, Espana
+Torre Agbar, Av. Diagonal 211 08018 Barcelona; España
 
-CIF:
+CIF: B66778899
 
-B66778899
-
-Tel:
-
-+34 93 444 55 66
+Tel: +34 93 444 55 66
 
 billing@estraglo.com
 
@@ -20,47 +18,31 @@ billing@estraglo.com
 
 DATOS FACTURA
 
-—\_—N2°:
+Fecha: 28/02/2025
 
-EG/2025/0089
+Vence: 30/04/2025
 
-Fecha:
-
-28/02/2025
-
-Vence:
-
-30/04/2025
-
-Pago:
-
-Transferencia 60 dias
+Pago: Transferencia 60 días
 
 FACTURAR A
 
-## Grupo Empresarial Hernandez S.A.
+## Grupo Empresarial Hernández S.A.
 
-Calle Serrano 41, 8° 28001 Madrid, Espana
+Calle Serrano 41, 89 28001 Madrid, España
 
-CIF:
+CIF: A55667788
 
-A55667788
+Ref: PROY-2025/034
 
-Ref:
-
-PROY-2025/034
-
-| DESCRIPCION                                         |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE     |
+| DESCRIPCIÓN                                         |   CANT. | PRECIO UNIT.   | DTO.   | IMPORTE     |
 |-----------------------------------------------------|---------|----------------|--------|-------------|
-| Consultoria estratégica — andlisis mercado ibérico  |      40 | 250,00 €       | —      | 10.000,00 € |
-| Plan de expansion internacional (informe ejecutivo) |       1 | 8.500,00 €     | _      | 8.500,00 €  |
-| Taller estrategia directiva (2 sesiones x 4h)       |       2 | 2.200,00 €     | _      | 4.400,00 €  |
-| Seguimiento mensual KPIs estratégicos (3 meses)     |       3 | 1.800,00 €     | _      | 5.400,00 €  |
-| Viajes y dietas (justificantes adjuntos)            |       1 | 1.240,00 €     | _      | 1.240,00 €  |
+| Consultoría estratégica análisis mercado ibérico    |      40 | 250,00 €       |        | 10.000,00 € |
+| Plan de expansión internacional (informe ejecutivo) |         | 8.500,00 €     |        | 8.500,00 €  |
+| Taller estrategia directiva (2 sesiones x 4h)       |       2 | 2.200,00 €     |        | 4.400,00 €  |
+| Seguimiento mensual KPls estratégicos (3 meses)     |       3 | 1.800,00 €     |        | 5.400,00 €  |
+| Viajes y dietas (justificantes adjuntos)            |         | 1.240,00 €     |        | 1.240,00 €  |
 
-IRPF (-15%):
-
--4.416,50 €
+IRPF (-159):
 
 Base Imponible:
 
@@ -70,30 +52,24 @@ IVA (21%):
 
 6.203,40 €
 
-L FACTURA:
+TOTAL FACTURA:
 
 31.326,90 €
 
 NOTAS
 
-Sujeto a retencion IRPF 15%. Gastos de viaje exentos de IVA. Pago a 60 dias.
+Sujeto a retención IRPF 15%. Gastos de viaje exentos de IVA. a 60 días. Pago
 
 DATOS DE PAGO
 
-Banco:
+Banco: Deutsche Bank España
 
-Deutsche Bank Espana
+IBAN: ES23 0190 1234 5612 3456 7890
 
-IBAN:
+SWIFT: DEUTESBBXXX
 
-ES23 0190 1234 5612 3456 7890
-
-SWIFT:
-
-DEUTESBBXXX
-
-Concepto:
-
-EG/2025/0089 PROY-2025/034
+Concepto: EG/2025/0089 PROY-2025/034
 
 Gracias por confiar en Estrategia Global para su crecimiento empresarial.
+
+CIF: B66778899 Mercantil Barcelona Tomo 44.567 Folio 122 Reg.
