@@ -1,33 +1,69 @@
-## **BRANDLAB** 
-
-BrandLab Marketing Digital S.L. 
-
-## **FACTURA** 
-
-## **EMITIDA POR** 
-
-**BrandLab Marketing Digital S.L.** Calle Velázquez 34, 2ºA 28001 Madrid, España CIF: B77665544 Tel: +34 91 987 65 43 hello@brandlab.es 
-
-## **FACTURAR A** 
-
-**Moda Exclusiva S.L.** Paseo de Gracia 120, 4º 08008 Barcelona, España CIF: B44332211 Ref: CLI-0455 
-
-## **DATOS FACTURA** 
-
-**Nº:** BLB/2025/0123 **Fecha:** 05/03/2025 **Vence:** 05/04/2025 **Pago:** Transferencia 30 días 
-
-|||**DESCRIPCIÓN**|**CANT.**|**CANT.**|**PRECIO UNIT.**|**PRECIO UNIT.**|**DTO.**|**IMPORTE**|
-|---|---|---|---|---|---|---|---|---|
-|||Gestión redes sociales — paquete premium (marzo)||1||2.400,00 €|—|2.400,00 €|
-|||Campaña Google Ads — presupuesto gestionado||1||5.000,00 €|—|5.000,00 €|
-|||Diseño 10 creatividades para RRSS||10||180,00 €|10%|1.620,00 €|
-|||Redacción 8 artículos SEO (1.500 palabras c/u)||8||220,00 €|—|1.760,00 €|
-|||Informe mensual analytics y KPIs||1||350,00 €|—|350,00 €|
-||||||||||
-||||||||||
-||**DATOS DE PAGO**<br>**Banco:** Banco Santander<br>**IBAN:** ES64 0049 1234 5126 1000 0001<br>**SWIFT:** BSCHESMMXXX<br>**Concepto:** BLB/2025/0123|||**NOTAS**<br>Pago a 30 días. Presupuesto publicitario no incluye<br>comisión adicional.|||||
-
-
-
-_Gracias por confiar en BrandLab. ¡Juntos hacemos crecer tu marca!_ CIF: B77665544 · Reg. Mercantil Madrid · Tomo 51.234, Folio 45 
-
+BRANDLAB
+BrandLab Marketing Digital S.L.
+FACTURA
+EMITIDA POR
+BrandLab Marketing Digital S.L.
+Calle Velázquez 34, 2ºA 28001 Madrid,
+España
+CIF: B77665544
+Tel: +34 91 987 65 43
+hello@brandlab.es
+FACTURAR A
+Moda Exclusiva S.L.
+Paseo de Gracia 120, 4º 08008
+Barcelona, España
+CIF: B44332211
+Ref: CLI-0455
+DATOS FACTURA
+Nº: BLB/2025/0123
+Fecha: 05/03/2025
+Vence: 05/04/2025
+Pago: Transferencia 30 días
+DESCRIPCIÓN
+CANT.
+PRECIO UNIT.
+DTO.
+IMPORTE
+Gestión redes sociales — paquete premium (marzo)
+1
+2.400,00 €
+—
+2.400,00 €
+Campaña Google Ads — presupuesto gestionado
+1
+5.000,00 €
+—
+5.000,00 €
+Diseño 10 creatividades para RRSS
+10
+180,00 €
+10%
+1.620,00 €
+Redacción 8 artículos SEO (1.500 palabras c/u)
+8
+220,00 €
+—
+1.760,00 €
+Informe mensual analytics y KPIs
+1
+350,00 €
+—
+350,00 €
+IRPF (-15%):
+-1.669,50 €
+Base Imponible:
+11.130,00 €
+IVA (21%):
+2.337,30 €
+TOTAL FACTURA:
+13.467,30 €
+DATOS DE PAGO
+Banco: Banco Santander
+IBAN: ES64 0049 1234 5126 1000 0001
+SWIFT: BSCHESMMXXX
+Concepto: BLB/2025/0123
+NOTAS
+Pago a 30 días. Presupuesto publicitario no incluye
+comisión adicional.
+Gracias por confiar en BrandLab. ¡Juntos hacemos crecer tu marca!
+CIF: B77665544 · Reg. Mercantil Madrid · Tomo 51.234, Folio 45
