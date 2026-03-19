@@ -1,69 +1,35 @@
-ALBA
-Construcciones Alba S.A.
-FACTURA
-EMITIDA POR
-Construcciones Alba S.A.
-Polígono Industrial El Pinar, C/ Roble 3
-50197 Zaragoza, España
-CIF: A33221100
-Tel: +34 976 44 55 66
-admin@construccionesalba.es
-FACTURAR A
-Ayuntamiento de Calatayud
-Plaza del Ayuntamiento 1 50300
-Calatayud, España
-CIF: P5003100E
-Ref: EXP-2025/0089
-DATOS FACTURA
-Nº: ALBA/2025/0056
-Fecha: 10/01/2025
-Vence: 10/04/2025
-Pago: Transferencia 90 días
-DESCRIPCIÓN
-CANT.
-PRECIO UNIT.
-DTO.
-IMPORTE
-Obra civil — pavimentación Calle Mayor (fase 1)
-1
-18.500,00 €
-—
-18.500,00 €
-Suministro hormigón HA-25 (120 m³)
-120
-95,00 €
-—
-11.400,00 €
-Mano de obra especializada (320 horas)
-320
-28,50 €
-—
-9.120,00 €
-Alquiler maquinaria pesada (15 días)
-15
-380,00 €
-5%
-5.415,00 €
-Gestión residuos construcción y demolición
-1
-1.200,00 €
-—
-1.200,00 €
-IRPF (-1%):
--456,35 €
-Base Imponible:
-45.635,00 €
-IVA (21%):
-9.583,35 €
-TOTAL FACTURA:
-55.218,35 €
-DATOS DE PAGO
-Banco: BBVA España
-IBAN: ES80 0182 6006 4801 2345 6789
-SWIFT: BBVAESMMXXX
-Concepto: ALBA/2025/0056 EXP-2025/0089
-NOTAS
-Pago a 90 días según Ley 3/2004 de morosidad.
-Factura sujeta a retención IRPF 1%.
-Gracias por confiar en Construcciones Alba S.A.
-CIF: A33221100 · Reg. Mercantil Zaragoza · Tomo 3.456, Folio 201
+## **ALBA** 
+
+Construcciones Alba S.A. 
+
+## **FACTURA** 
+
+**EMITIDA POR FACTURAR A Construcciones Alba S.A. Ayuntamiento de Calatayud** Polígono Industrial El Pinar, C/ Roble 3 Plaza del Ayuntamiento 1 50300 50197 Zaragoza, España Calatayud, España CIF: A33221100 CIF: P5003100E Tel: +34 976 44 55 66 Ref: EXP-2025/0089 admin@construccionesalba.es 
+
+## **DATOS FACTURA** 
+
+**Nº:** ALBA/2025/0056 **Fecha:** 10/01/2025 **Vence:** 10/04/2025 **Pago:** Transferencia 90 días 
+
+|**DESCRIPCIÓN**|**CANT.**|**PRECIO UNIT.**|**PRECIO UNIT.**|**DTO.**|**IMPORTE**|
+|---|---|---|---|---|---|
+|Obra civil — pavimentación Calle Mayor (fase 1)|1||18.500,00 €|—|18.500,00 €|
+|Suministro hormigón HA-25 (120 m³)|120||95,00 €|—|11.400,00 €|
+|Mano de obra especializada (320 horas)|320||28,50 €|—|9.120,00 €|
+|Alquiler maquinaria pesada (15 días)|15||380,00 €|5%|5.415,00 €|
+|Gestión residuos construcción y demolición|1||1.200,00 €|—|1.200,00 €|
+|||||||
+||||IRPF (-1%):<br>-456,35 €<br>Base Imponible:<br>45.635,00 €<br>IVA (21%):<br>9.583,35 €|||
+||||**TOTAL FACTURA:**<br>**55.218,35 €**|||
+
+
+
+## **DATOS DE PAGO** 
+
+**Banco:** BBVA España **IBAN:** ES80 0182 6006 4801 2345 6789 **SWIFT:** BBVAESMMXXX **Concepto:** ALBA/2025/0056 EXP-2025/0089 
+
+## **NOTAS** 
+
+Pago a 90 días según Ley 3/2004 de morosidad. Factura sujeta a retención IRPF 1%. 
+
+_Gracias por confiar en Construcciones Alba S.A._ CIF: A33221100 · Reg. Mercantil Zaragoza · Tomo 3.456, Folio 201 
+

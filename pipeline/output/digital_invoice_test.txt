@@ -1,74 +1,33 @@
-TECNOVA
-Soluciones Tecnológicas S.L.
-FACTURA
-EMITIDA POR
-TECNOVA Soluciones
-Tecnológicas S.L.
-Calle Gran Vía 45, Planta 3
-28013 Madrid, España
-CIF: B98765432
-Tel: +34 91 123 45 67
-tecnova@tecnova.es
-FACTURAR A
-Distribuciones García e Hijos
-S.A.
-Polígono Industrial Norte, Nave 12
-08040 Barcelona, España
-CIF: A12398765
-Ref. Cliente: CLI-0892
-DATOS FACTURA
-Nº Factura:
-TECN/2025/0187
-Fecha: 28/02/2025
-Vencimiento: 30/03/2025
-Forma pago: Transferencia
-DESCRIPCIÓN
-CANT.
-PRECIO UNIT. DESCUENTO
-IMPORTE
-Licencias Software ERP — Módulo Contabilidad (anual)
-3
-1.850,00 €
-5%
-5.272,50 €
-Implementación y configuración del sistema
-1
-3.200,00 €
-—
-3.200,00 €
-Formación presencial usuarios (2 días)
-1
-900,00 €
-—
-900,00 €
-Soporte técnico prioritario — 12 meses
-1
-1.200,00 €
-10%
-1.080,00 €
-Mantenimiento servidores en la nube privada
-12
-250,00 €
-—
-3.000,00 €
-Base Imponible:
-13.452,50 €
-IVA (21%):
-2.824,98 €
-IRPF (-15%):
--2.017,88 €
-TOTAL FACTURA:
-14.259,60 €
-DATOS DE PAGO
-Banco: CaixaBank S.A.
-IBAN: ES76 2100 0813 6101 2345 6789
-SWIFT/BIC: CAIXESBBXXX
-Concepto: TECN/2025/0187
-NOTAS
-Pago a 30 días desde fecha de factura.
-En caso de retraso se aplicarán intereses del 2%
-mensual.
-Esta factura ha sido generada electrónicamente y es
-válida sin firma.
-Gracias por su confianza en TECNOVA Soluciones Tecnológicas S.L.
-CIF: B98765432 · Reg. Mercantil Madrid · Tomo 42.123, Folio 88, Hoja M-750234
+## **TECNOVA** 
+
+Soluciones Tecnológicas S.L. 
+
+## **FACTURA** 
+
+**EMITIDA POR FACTURAR A DATOS FACTURA TECNOVA Soluciones Distribuciones García e Hijos Nº Factura: Tecnológicas S.L. S.A.** TECN/2025/0187 Calle Gran Vía 45, Planta 3 Polígono Industrial Norte, Nave 12 **Fecha:** 28/02/2025 28013 Madrid, España 08040 Barcelona, España **Vencimiento:** 30/03/2025 CIF: B98765432 CIF: A12398765 **Forma pago:** Transferencia Tel: +34 91 123 45 67 Ref. Cliente: CLI-0892 tecnova@tecnova.es 
+
+|**DESCRIPCIÓN**|**CANT.**|**PRECIO UNIT. **|**PRECIO UNIT. **|**DESCUENTO**|**IMPORTE**|
+|---|---|---|---|---|---|
+|Licencias Software ERP — Módulo Contabilidad (anual)|3||1.850,00 €|5%|5.272,50 €|
+|Implementación y configuración del sistema|1||3.200,00 €|—|3.200,00 €|
+|Formación presencial usuarios (2 días)|1||900,00 €|—|900,00 €|
+|Soporte técnico prioritario — 12 meses|1||1.200,00 €|10%|1.080,00 €|
+|Mantenimiento servidores en la nube privada|12||250,00 €|—|3.000,00 €|
+|||||||
+||||Base Imponible:<br>13.452,50 €<br>IVA (21%):<br>2.824,98 €<br>IRPF (-15%):<br>-2.017,88 €|||
+||||**TOTAL FACTURA:**<br>**14.259,60 €**|||
+
+
+
+## **DATOS DE PAGO** 
+
+**Banco:** CaixaBank S.A. **IBAN:** ES76 2100 0813 6101 2345 6789 **SWIFT/BIC:** CAIXESBBXXX **Concepto:** TECN/2025/0187 
+
+## **NOTAS** 
+
+Pago a 30 días desde fecha de factura. En caso de retraso se aplicarán intereses del 2% mensual. Esta factura ha sido generada electrónicamente y es válida sin firma. 
+
+_Gracias por su confianza en TECNOVA Soluciones Tecnológicas S.L._ 
+
+CIF: B98765432 · Reg. Mercantil Madrid · Tomo 42.123, Folio 88, Hoja M-750234 
+
