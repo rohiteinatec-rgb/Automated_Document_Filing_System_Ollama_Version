@@ -1,77 +1,84 @@
-📄 Spain-Optimized PDF Extractor with Self-Healing Vision AI
-An advanced, multi-track document extraction pipeline designed specifically for Spanish invoices. This tool dynamically analyzes incoming PDFs to determine if they are digital or scanned, routing them through specialized extraction tracks. It features a rigorous "Quality Gate" that checks for Spanish financial compliance (IBANs, CIF/NIEs) and automatically escalates failed or corrupted OCR scans to a local instance of Llama 3.2 Vision for self-healing and correction.
+Project 2: Intelligent Document Router (IDR)
+An automated, AI-driven document classification and filing system designed for European business environments. It utilizes Mistral Small 3 for high-precision text classification and Llama 3.2 Vision as a fallback for scanned documents.
 
-✨ Key Features
-Intelligent Routing: Automatically detects whether a PDF is natively digital (text-based) or scanned (image-based) by analyzing the document's geometric blocks, routing it to the most efficient pipeline.
+🚀 Overview
+Project 2 transforms a chaotic input directory into a structured, searchable archive. It identifies document types (Invoices, Contracts, Tax Models), extracts key identifiers (Provider names, Dates), renames files, and routes them to the appropriate directories.
 
-Tiered Digital Track (Track A): Processes digital PDFs using a blazing-fast escalation path: PyMuPDF4LLM → pdfplumber → Docling (Digital Mode).
+Key Features
+Dual-Path Processing: * Fast Path (95%): Digital PDFs are parsed via PyMuPDF and classified by Mistral Small 3 in milliseconds.
 
-Self-Healing Scanned Track (Track B): Processes scanned PDFs using Docling's EasyOCR. If the output is garbage, it automatically escalates to a local Ollama Vision AI to read and correct the document from scratch.
+Vision Fallback (5%): Scanned/Image-based PDFs trigger Llama 3.2 Vision 11B for visual classification.
 
-Strict Quality Gate: A built-in evaluation function that grades the extraction based on:
+European Context: Optimized for Spanish and Catalan document structures (e.g., Modelo 111, Nóminas, Contractes de treball) using Mistral's superior European language tuning.
 
-Generic health (character count, garbage ratio, font corruption).
+Tag Memory (ChromaDB): Prevents "Tag Drift" by remembering previously used categories (e.g., ensuring "PAYSLIP" isn't renamed to "SALARY" the next day).
 
-OCR Hallucinations (letters inside numbers, mangled percentage signs).
+HPC Optimized: Configured to stay resident in the 48GB VRAM of an NVIDIA RTX 6000 Ada for zero-latency inference.
 
-Table integrity (missing values next to "IVA" or "Base Imponible").
+🏗 Architecture
+The system is built with a decoupled, "Micro-Service" style architecture in Python:
 
-Semantic presence of Spanish data (CIF/NIE, ES-based IBANs, Euro amounts).
+reader.py: High-speed text extraction and "Vision Trigger" logic.
 
-100% Local & Private: All OCR and LLM vision inference runs locally. No sensitive invoice data is sent to external cloud APIs.
+classifier.py: The brain; handles ChromaDB lookups and Ollama API orchestration.
 
-⚙️ Architecture
-Plaintext
-Incoming PDF
-│
-├─> [Gatekeeper] Is it Digital or Scanned?
-│
-├─> [Track A: Digital]
-│      ├─> Tier 1: PyMuPDF4LLM
-│      ├─> Tier 2: pdfplumber (If Tier 1 fails Quality Gate)
-│      └─> Tier 3: Docling (If Tier 2 fails Quality Gate)
-│
-└─> [Track B: Scanned]
-├─> Tier 1: Docling + EasyOCR
-└─> Tier 2: Ollama Vision AI (If OCR fails Quality Gate)
-🛠️ Prerequisites
-Before running the script, ensure you have the following installed on your system:
+filer.py: Safe I/O operations (Renaming, Path sanitization, and Moving).
 
-Python 3.9+
+config.py: Centralized hardware and logic thresholds.
 
-Ollama: Must be installed and running locally.
+main.py: CLI and orchestration layer.
 
-Llama 3.2 Vision Model: You need to pull the vision model into your local Ollama instance:
+🛠 Hardware Prerequisites
+GPU: NVIDIA RTX 6000 Ada (48GB VRAM recommended for dual-model residency).
+
+RAM: 256GB System RAM (allows for 90B model offloading if needed).
+
+Environment: Windows 11 / Linux with Ollama installed.
+
+🚦 Getting Started
+1. Model Preparation
+   Pull the specialized models via Ollama:
 
 Bash
-ollama run llama3.2-vision:latest
-Python Dependencies
-Install the required Python packages:
+# High-precision European text model
+ollama pull mistral-small:24b
 
-Bash
-pip install pymupdf pymupdf4llm pdfplumber Pillow docling requests
-🚀 Usage
-Run the script from your terminal, pointing it to the PDF you want to extract:
+# Multimodal fallback for scanned docs
+ollama pull llama3.2-vision:11b
+2. Configuration
+   Update p2_config.py with your local paths:
 
-Bash
-python detector_ollama.py --pdf path/to/your/invoice.pdf
+Python
+INPUT_FOLDER  = r"C:\Project2\input"
+OUTPUT_ROOT   = r"C:\Project2\filed"
+OLLAMA_MODEL_TEXT = "mistral-small:24b"
+3. Usage
+   Process a single file with debug logs:
 
-Examples
-Run with debug mode (Recommended for testing):
+PowerShell
+python p2_main.py --pdf .\input\factura_einatec.pdf --debug
+Run a "Dry Run" on a full folder (No files moved):
 
-Bash
-python detector_ollama.py --pdf input/sc_01_automocion.pdf --debug
-Run with specific OCR languages:
+PowerShell
+python p2_main.py --folder .\input\daily_batch --dry-run
+🧠 Why Mistral Small 3?
+While Llama 3.1 is powerful, Mistral Small 3 (24B) was selected for Project 2 priority due to:
 
-Bash
-python detector_ollama.py --pdf input/invoice_catalan.pdf --lang ca+es+en
-📂 Output
-The script generates a flawlessly formatted Markdown (.txt) file representing the extracted invoice, including reconstructed tables and recovered footers.
+Linguistic Nuance: Superior understanding of Spanish/Catalan legal and financial terminology.
 
-Outputs are automatically saved in the output/ directory relative to where the script is executed, using the same filename as the original PDF:
-output/invoice_name.txt
+Efficiency: At 24B parameters, it fits perfectly alongside the 11B Vision model in 48GB VRAM, allowing both to stay "Warm" (Resident) for instant processing.
 
-🧠 Under the Hood: The "Anti-Lazy" Vision Prompt
-If EasyOCR fails the Quality Gate, the script uses the Pillow library to drastically enhance the contrast and sharpness of the PDF pages. It then feeds both the enhanced images and the flawed OCR text into llama3.2-vision.
+Instruction Following: More consistent JSON output for automated backend filing compared to smaller 8B models.
 
-The LLM is prompted with strict instructions to fix corrupted numbers (e.g., 6.7oo.00 → 6.700,00), rebuild empty tables, and forcibly extract the tiny footer text (IBANs/Registry details) that standard OCR engines frequently miss on Spanish invoices.
+📂 Filing Structure Logic
+Files are renamed using the following convention:
+{TAG}_{IDENTIFIER}_{ORIGINAL_NAME}.pdf
+
+Example:
+
+Input: document_001.pdf (A Spanish water bill)
+
+Output: INVOICE_Agbar_document_001.pdf → Moved to /filed/INVOICE/
+
+⚖️ License & Audit
+Every action is logged to filing_log.jsonl for auditability, ensuring a clear record of how the AI moved each document.
