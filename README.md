@@ -1,65 +1,77 @@
-# 🧠 PDF to JSON Schema: AI Extraction Pipeline (Docling Version)
+📄 Spain-Optimized PDF Extractor with Self-Healing Vision AI
+An advanced, multi-track document extraction pipeline designed specifically for Spanish invoices. This tool dynamically analyzes incoming PDFs to determine if they are digital or scanned, routing them through specialized extraction tracks. It features a rigorous "Quality Gate" that checks for Spanish financial compliance (IBANs, CIF/NIEs) and automatically escalates failed or corrupted OCR scans to a local instance of Llama 3.2 Vision for self-healing and correction.
 
-An enterprise-grade, AI-driven extraction pipeline designed to handle the most difficult documents: **Scanned Invoices, Image-based PDFs, and Complex Layouts.** Unlike standard OCR engines that simply read text left-to-right, this pipeline uses **IBM's Docling** (DocLayNet) to semantically understand the document's structure, perfectly reconstructing tables and reading text from photographs before normalizing it into Markdown for JSON parsing.
+✨ Key Features
+Intelligent Routing: Automatically detects whether a PDF is natively digital (text-based) or scanned (image-based) by analyzing the document's geometric blocks, routing it to the most efficient pipeline.
 
-## 🛡️ Enterprise Defenses (The Gatekeeper)
+Tiered Digital Track (Track A): Processes digital PDFs using a blazing-fast escalation path: PyMuPDF4LLM → pdfplumber → Docling (Digital Mode).
 
-Before the heavy AI models are loaded into memory, the document must pass a strict defensive gauntlet:
-1. **Resource Exhaustion Protection (DoS):** Hardcoded `MAX_PAGES` limit to prevent malicious or glitched PDFs from spiking server RAM.
-2. **Security & Integrity Checks:** Automatically catches corrupted files and password-protected/encrypted PDFs upfront to prevent infinite pipeline hangs.
-3. **Memory-Safe Execution:** Wraps all C-binding PyMuPDF operations in Python context managers to guarantee memory release, even during fatal errors.
+Self-Healing Scanned Track (Track B): Processes scanned PDFs using Docling's EasyOCR. If the output is garbage, it automatically escalates to a local Ollama Vision AI to read and correct the document from scratch.
 
-## 🚀 Smart AI Routing Architecture
+Strict Quality Gate: A built-in evaluation function that grades the extraction based on:
 
-Once the document is validated, the pipeline dynamically analyzes the page geometry to apply the most efficient extraction method:
+Generic health (character count, garbage ratio, font corruption).
 
-* **Track A: Digital PDF (Fast Track)**
-  If the page contains native digital text, the pipeline bypasses the heavy OCR vision models. It runs Docling with `OCR=False` to instantly map the table layouts using purely digital data, keeping processing times under 1 second.
-* **Track B: Scanned/Image PDF (Deep Learning Track)**
-  If the page is an image or a photograph converted to a PDF, the pipeline spins up Docling's PyTorch-based vision models (`OCR=True`) to visually read the document, reconstruct the invisible gridlines, and output structured Markdown.
+OCR Hallucinations (letters inside numbers, mangled percentage signs).
 
-## 📋 Prerequisites & Installation
+Table integrity (missing values next to "IVA" or "Base Imponible").
 
-Ensure your system has **Python 3.8+** installed. *(Note: Unlike older OCR pipelines, this version does NOT require Docker).*
+Semantic presence of Spanish data (CIF/NIE, ES-based IBANs, Euro amounts).
 
-Install the required extraction and AI libraries:
-bash
-pip install docling PyMuPDF
+100% Local & Private: All OCR and LLM vision inference runs locally. No sensitive invoice data is sent to external cloud APIs.
 
-🛠️ Usage Workflow
+⚙️ Architecture
+Plaintext
+Incoming PDF
+│
+├─> [Gatekeeper] Is it Digital or Scanned?
+│
+├─> [Track A: Digital]
+│      ├─> Tier 1: PyMuPDF4LLM
+│      ├─> Tier 2: pdfplumber (If Tier 1 fails Quality Gate)
+│      └─> Tier 3: Docling (If Tier 2 fails Quality Gate)
+│
+└─> [Track B: Scanned]
+├─> Tier 1: Docling + EasyOCR
+└─> Tier 2: Ollama Vision AI (If OCR fails Quality Gate)
+🛠️ Prerequisites
+Before running the script, ensure you have the following installed on your system:
 
-1. Extract the PDF to Markdown
-Run the detector script to validate the PDF and extract layout-aware text.
+Python 3.9+
+
+Ollama: Must be installed and running locally.
+
+Llama 3.2 Vision Model: You need to pull the vision model into your local Ollama instance:
+
 Bash
-python pipeline/detector_docling.py --pdf input/scanned_invoice.pdf --debug
-
-2. Parse the Markdown to JSON
-Pass the resulting text file into the parser to generate the final JSON schema.
+ollama run llama3.2-vision:latest
+Python Dependencies
+Install the required Python packages:
 
 Bash
-python pipeline/parser_json.py --input output/scanned_invoice.txt --debug
+pip install pymupdf pymupdf4llm pdfplumber Pillow docling requests
+🚀 Usage
+Run the script from your terminal, pointing it to the PDF you want to extract:
 
+Bash
+python detector_ollama.py --pdf path/to/your/invoice.pdf
 
-## 📂 Project Structure
+Examples
+Run with debug mode (Recommended for testing):
 
-PDF_to_JSON_Schema_Docling/
-├── input/                  # Place your complex/scanned PDF files here
-├── output/                 # Extracted Markdown and final JSON files are saved here
-├── pipeline/
-│   ├── detector_docling.py # Main enterprise script for AI extraction
-│   └── parser_json.py      # Script to convert Markdown tables to JSON
-└── README.md
+Bash
+python detector_ollama.py --pdf input/sc_01_automocion.pdf --debug
+Run with specific OCR languages:
 
-## 📄 License
-Einatec License
+Bash
+python detector_ollama.py --pdf input/invoice_catalan.pdf --lang ca+es+en
+📂 Output
+The script generates a flawlessly formatted Markdown (.txt) file representing the extracted invoice, including reconstructed tables and recovered footers.
 
-## ✍️ Author
-Einatec Team / Rohit
+Outputs are automatically saved in the output/ directory relative to where the script is executed, using the same filename as the original PDF:
+output/invoice_name.txt
 
+🧠 Under the Hood: The "Anti-Lazy" Vision Prompt
+If EasyOCR fails the Quality Gate, the script uses the Pillow library to drastically enhance the contrast and sharpness of the PDF pages. It then feeds both the enhanced images and the flawed OCR text into llama3.2-vision.
 
-### Key Upgrades from your old README:
-1. **Removed Docker:** Docling runs strictly in Python, so I removed the Docker prerequisite to save future developers from confusion.
-2. **Updated the Routing Logic:** Explained how the new script uses Docling's `OCR=False` for fast-tracking digital files and `OCR=True` for heavy image lifting.
-3. **Carried over the Defenses:** The README sets the expectation that this isn't just a script, it's a secure backend ingestion layer.
-
-Whenever you have this pushed to your new repository, let me know! We can immediately dive into writing the `detector_docling.py` code with our enterprise defenses perfectly integrated.
+The LLM is prompted with strict instructions to fix corrupted numbers (e.g., 6.7oo.00 → 6.700,00), rebuild empty tables, and forcibly extract the tiny footer text (IBANs/Registry details) that standard OCR engines frequently miss on Spanish invoices.
