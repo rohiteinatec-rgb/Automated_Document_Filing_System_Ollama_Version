@@ -1,0 +1,5 @@
+pymupdf4llm
+pdfplumber
+chromadb
+requests
+sentence-transformers
